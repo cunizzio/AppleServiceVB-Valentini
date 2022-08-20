@@ -35,7 +35,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: lightgrey;
+    background-image: linear-gradient(grey, lightgrey);
     border: 2px solid;
 }
 
@@ -51,7 +51,7 @@
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    background-color: grey;
+    background-image: linear-gradient(lightgrey, grey);
     border: 2px solid;
 }
 
@@ -86,9 +86,8 @@
     gap: 150px;
 }
 
-.menu__principal li {
-    border: 1px solid;
-    background-color: lightgrey;
+.menu__principal li:hover {
+    background-color: black;
 }
 
 .carta__principal {
